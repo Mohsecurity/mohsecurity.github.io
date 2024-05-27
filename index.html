@@ -8,61 +8,46 @@
     <title>My Personal Website</title>
 </head>
 <body>
+<body>
+    <div id="terminal">
+      <div id="mainInfo">
+        <div>
+          <div class="inlineContainer">
+            <pre>
 
-    <div class="sc-iJKOTD ekzeGY">
-        <div class="sc-iwjdpV eLvck">
-            <div class="sc-cxpSdN elzvTo">
-                <div class="sc-bqiRlB bSYrCn">
-                    <div class="sc-jrQzAO jIEVBe">
-                        <div class="sc-pVTFL bOgtYO">
-                            <img src="https://www.gastouderbureauadmiraal.nl/wp-content/uploads/2016/02/dummy-profile-pic-male.jpg" alt="Eray (Kurt) Redzheb" class="sc-gsDKAQ WjBEv">
-                        </div>
-                    </div>
-                    <div class="sc-hBUSln kMmoQC">
-                        <div class="sc-ksdxgE eOOjhv">
-                            <h1 class="sc-iCfMLu eehqFj">Mohamed (Duba) Jattan</h1>
-                            <h2 class="sc-gKclnd bEOvQm"></h2>
-                        </div>
-                    
-<div class="sc-kDTinF eDbsqe">
-                            <div class="sc-crHmcD jDvJAM">
-                             
-                               
-                            </div>
-                            <div class="sc-crHmcD jDvJAM">
-                               
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="sc-llYSUQ iTTWTc">
-                    <div class="sc-bBHxTw fcyJva">
-                        <div class="sc-hGPBjI hwPBWh">
-                            <p class="sc-kfPuZi ihOOoE">As a penetration tester, I have extensive experience in identifying and 
-exploiting vulnerabilities in software systems. My expertise includes 
-network security testing,Active directory testing web application security testing, dark web forensics and social 
-engineering.</p>
-                          
-                        </div>
-                    </div>
-                    <div class="sc-fotOHu glbodC .cta-button">
-                        <a href="404.html" target="_blank" class="sc-fFeiMQ gEKEiq">
-                            <div class="sc-bkkeKt jqMGwH">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                    <path d="M9.631 3.225l12.033 12.032L21 17l-5.56.04 3.573 7.915a1.438 1.438 0 11-2.63 1.163L12.92 18.12l-3.177 3.545L8 21V4l1.631-.775z"></path>
-                                    <path d="M9 3a1 1 0 100 2 1 1 0 100-2zm0 17a1 1 0 100 2 1 1 0 100-2zm12-5a1 1 0 100 2 1 1 0 100-2z"></path>
-                                </svg>
-                            </div>
-                            <button type="button" data-prototype-url="404.html">My Website</button> 
-                        </a>
-                    </div>
-                </div>
-            </div>
+        </pre
+            >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIIR7CDakIuc5yfSwNEFhHUGqJmhUckaOsbw&s" alt class="avatar" />
+          </div>
+          <br />
+          Welcome to my personal website!
+          <br />
+          <div id="helpCmdList"></div>
         </div>
-    </div>
+      </div>
+      <div id="output"></div>
+      <div id="input" class="command-input">
+        <span id="prompt">
+          <span class="ownerTerminal"><b>Mohamed@profile</b></span
+          ><b>:~$</b>
+        </span>
 
-    <script src="script.js"></script>
+        <input
+          type="text"
+          id="cmd"
+          oninput="showSuggestions()"
+          onkeydown="handleKeyDown(event)"
+        />
+      </div>
+
+      <div id="suggestions"></div>
+    </div>
+  </body>
+</html>
+
+    
+                
+   
     
 </body>
 </html>
